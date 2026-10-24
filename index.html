@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FoodBridge AI - Surplus Food Exchange</title>
+  <meta name="description" content="FoodBridge AI connects food donors with NGOs using predictive surplus matching and food safety controls.">
+  <meta name="theme-color" content="#15803d">
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <button class="brand" data-act="home" aria-label="FoodBridge AI home">
+        <img src="assets/icon.png" alt="FoodBridge AI logo">
+        <b>FoodBridge <span>AI</span></b>
+      </button>
+      <div class="userbox" id="userbox"></div>
+    </div>
+  </header>
+
+  <main class="wrap" id="app"></main>
+
+  <footer>
+    <div>FoodBridge AI - Predictive food surplus exchange with dynamic allocation and food safety controls</div>
+    <div style="margin-top:6px" id="dbstate"></div>
+  </footer>
+
+  <div id="modal-root"></div>
+  <div id="toast"></div>
+
+  <script src="shared/engine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
